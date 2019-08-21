@@ -54,6 +54,9 @@ public class PaginationControl {
         return currentPage;
     }
     
+    public int checkOk(){
+    	return true;
+    }
     public int previous() {
         if(hasPrevious()) {
             currentPage--;
