@@ -34,7 +34,7 @@ public class ChangePassWordControl {
     public boolean changePassword(String oldPass, String newPass) {
         Session session = HibernateUtil.getSessionFactory().openSession();
         Transaction tx = null;
-        try 
+        try {
             tx = session.beginTransaction();
          
             SQLQuery query;
