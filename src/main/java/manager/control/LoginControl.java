@@ -23,6 +23,7 @@ import org.hibernate.type.IntegerType;
  */
 
 
+
 public class LoginControl {
     private final LoginUI loginUI;
     private final LoginEntity loginEntity;
