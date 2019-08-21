@@ -13,6 +13,7 @@ import manager.control.InformationControl;
 import manager.entity.InformationEntity;
 import org.apache.commons.validator.routines.EmailValidator;
 
+
 /**
  *
  * @author Dell
