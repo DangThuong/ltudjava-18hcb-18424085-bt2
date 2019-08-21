@@ -31,11 +31,11 @@ public class ChangePassWordControl {
         this.userName = userName;
     }
 
-    
     public boolean changePassword(String oldPass, String newPass) {
         Session session = HibernateUtil.getSessionFactory().openSession();
         Transaction tx = null;
         try {
+
             tx = session.beginTransaction();
          
             SQLQuery query;
