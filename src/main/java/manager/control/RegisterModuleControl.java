@@ -15,6 +15,7 @@ import org.hibernate.Transaction;
 import org.hibernate.type.IntegerType;
 import org.hibernate.type.StringType;
 
+
 /**
  *
  * @author Dell
